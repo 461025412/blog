@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>黑色Html5响应式个人博客模板——主题《如影随形》</title>
+<meta name="keywords" content="个人博客模板,博客模板,响应式" />
+<meta name="description" content="如影随形主题的个人博客模板，神秘、俏皮。" />
+<link href="__PUBLIC__/css/style.css" rel="stylesheet">
+<link href="__PUBLIC__/css/base.css" rel="stylesheet">
+<link href="__PUBLIC__/css/index.css" rel="stylesheet">
+<link href="__PUBLIC__/css/media.css" rel="stylesheet">
+
+<style type="text/css" />
+
+.fangke{float:left;} 
+</style>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="ibody">
+  
+    <include file="Public:index"/>
+
+  <article>
+    <div class="banner">
+      <ul class="texts">
+        <p>The best life is use of willing attitude, a happy-go-lucky life. </p>
+        <p>最好的生活是用心甘情愿的态度，过随遇而安的生活。</p>
+      </ul>
+    </div>
+    <div class="bloglist">
+      <h2>
+        <p><span>推荐</span>文章</p>
+      </h2>
+	  <volist name='cxdiary' id='cxdiary'>
+      <div class="blogs">
+        <h3><a href="/">标题：{$cxdiary['title']}</a></h3>
+        <figure><img src="__PUBLIC__/Uploads/pic/{$cxdiary['photo']}" ></figure>
+        <ul class="text">
+          <p style="width:400px;height:100px;overflow:hidden;">{$cxdiary['content']}</p>
+          <a href="__MODULE__/Diary/single/id/{$cxdiary['id']}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+        </ul>
+        <p class="autor"><span>作者：{$cxdiary['auth']}</span><span>分类：【<a href="/">{$cxdiary['name']}</a>】</span><span>浏览（<a href="/">{$cxdiary['view']}</a>）</span><span>评论（<a href="/">{$cxdiary['huifu']}</a>）</span></p>
+        <div class="dateview">{$cxdiary['time']|date="Y-m-d H:i:s",###}</div>
+      </div>
+	  </volist>
+	 <empty name="jddiary['title']">
+	 <else/>
+      <div class="blogs">
+        <h3><a href="/">标题：{$jddiary['title']}</a></h3>
+        <figure><img src="__PUBLIC__/Uploads/pic/{$jddiary['photo']}" ></figure>
+        <ul class="text">
+          <p style="width:400px;height:100px;overflow:hidden;">{$jddiary['content']}</p>
+          <a href="__MODULE__/Diary/single/id/{$jddiary['id']}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+        </ul>
+        <p class="autor"><span>作者：{$jddiary['auth']}</span><span>分类：【<a href="/">{$jddiary['name']}</a>】</span><span>浏览（<a href="/">{$jddiary['view']}</a>）</span></p>
+        <div class="dateview">{$jddiary['time']|date="Y-m-d H:i:s",###}</div>
+      </div>
+	</empty>
+	<empty name="rsdiary['title']">
+	 <else/>
+      <div class="blogs">
+        <h3><a href="/">标题：{$rsdiary['title']}</a></h3>
+        <figure><img src="__PUBLIC__/Uploads/pic/{$rsdiary['photo']}" ></figure>
+        <ul class="text">
+          <p style="width:400px;height:100px;overflow:hidden;">{$rsdiary['content']}</p>
+          <a href="__MODULE__/Diary/single/id/{$rsdiary['id']}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+        </ul>
+        <p class="autor"><span>作者：{$rsdiary['auth']}</span><span>分类：【<a href="/">{$rsdiary['name']}</a>】</span><span>浏览（<a href="/">{$rsdiary['view']}</a>）</span></p>
+        <div class="dateview">{$rsdiary['time']|date="Y-m-d H:i:s",###}</div>
+      </div>
+    </empty>
+	<empty name="grdiary['title']">
+	 <else/>
+      <div class="blogs">
+        <h3><a href="/">标题：{$grdiary['title']}</a></h3>
+        <figure><img src="__PUBLIC__/Uploads/pic/{$grdiary['photo']}" ></figure>
+        <ul class="text">
+          <p style="width:400px;height:100px;overflow:hidden;">{$grdiary['content']}</p>
+          <a href="__MODULE__/Diary/single/id/{$grdiary['id']}" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+        </ul>
+        <p class="autor"><span>作者：{$grdiary['auth']}</span><span>分类：【<a href="/">{$grdiary['name']}</a>】</span><span>浏览（<a href="/">{$grdiary['view']}</a>）</span></p>
+        <div class="dateview">{$grdiary['time']|date="Y-m-d H:i:s",###}</div>
+      </div>
+      </empty>
+    </div>
+  </article>
+  <aside>
+    <div class="avatar"><a href="__MODULE__/User/index"><span>关于徐忠杰</span></a></div>
+    <div class="topspaceinfo">
+      
+      <p style="font-family: 'Microsoft Yahei',Arial,Helvetica,sans-serif;
+    font-size:14px;color:black;">站在时间的长轴上，以一个变量堆积的现在的自己，回首望去，真想对过去残缺、自卑的自己说一句：谢谢你，那时没有选择放弃...</p>
+    </div>
+    <div class="about_c">
+      <p>网名：{$user['wangming']}</p>
+      <p>职业：{$user['zhiye']} </p>
+      <p>籍贯：{$user['jiguan']}</p>
+      <p>电话：{$user['phone']}</p>
+      <p>邮箱：{$user['email']}</p>
+    </div>
+    <div class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_more" data-cmd="more"></a></div>
+    <div class="tj_news">
+      <h2>
+        <p class="tj_t1">最新文章</p>
+      </h2>
+      <ul>
+	  <volist name='newdiary'  id='newdiary'>
+        <li><a href="__MODULE__/Diary/single/id/{$newdiary['id']}">{$newdiary['title']}</a></li>
+		</volist>
+      </ul>
+      <h2>
+	  
+        <p class="tj_t2">推荐文章</p>
+		
+      </h2>
+      <ul>
+	  <volist name='hotdiary'  id='hotdiary'>
+        <li><a href="__MODULE__/Diary/single/id/{$hotdiary['id']}">{$hotdiary['title']}</a></li>
+		</volist>
+      </ul>
+	   
+	  <h2>
+        <p>最新留言</p>
+      </h2>
+      <ul class="pl_n">
+	  <volist name='huifu' id='huifu'>
+        <dl> 
+          <dt><img src="__PUBLIC__/Uploads/pic/{$huifu['user']['bigpic']}"> </dt>
+          <dt> </dt>
+          <dd>{$huifu['user']['name']}
+            <time>{$huifu['time']|date="Y-m-d H:i:s",###}</time>
+          </dd>
+          <dd><a href="/">{$huifu['huifu']}</a></dd>
+        </dl>
+       </volist>
+      </ul>
+	  <h2>
+        <p>最近访客</p>
+      </h2>
+      <ul class="pl_n">
+        <volist name="fangke" id="fangke">
+        <dl class="fangke"> 
+          <dt><img src="__PUBLIC__/Uploads/pic/{$fangke['bigpic']}"> </dt>
+
+        </dl>
+		
+      </volist>
+      </ul>
+    </div>
+    <!---<div class="links" style="margin-top:130px">
+      <h2>
+        <p>友情链接</p>
+      </h2>
+      <ul>
+        <li><a href="/">杨青个人博客</a></li>
+        <li><a href="/">3DST技术社区</a></li>
+      </ul>
+    </div>---->
+    <div class="copyright" style="margin-top:130px;">
+      <ul>
+        <p> Design by <a href="/">DanceSmile</a></p>
+        <p>蜀ICP备11002373号-1</p>
+        </p>
+      </ul>
+    </div>
+  </aside>
+  <script src="js/silder.js"></script>
+  <div class="clear"></div>
+  <!-- 清除浮动 --> 
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<div class="pageContent">
+	<form method="post" action="__URL__/update/navTabId/图片列表/callbackType/closeCurrent" enctype="multipart/form-data"  class="pageForm required-validate" 
+		onsubmit="return iframeCallback(this, navTabAjaxDone);"><?php  //窗体组件采用这个 iframeCallback(this, navTabAjaxDone); ?>
+		<input type="hidden" name="id" value="{$vo['id']}"/>
+		<div class="pageFormContent" layoutH="60">
+			<dl >
+				<dt>图片：</dt>
+				<dd><input type="file"  style="width:100%" name="pic" width="100px" height="100px"/></dd>
+				<dd><img width="300px" height="400px" src="__PUBLIC__/Uploads/pic/{$vo.bigurl}" ></dd>
+			</dl>
+			<dl style="height:50px;">
+				<dt>图片名：</dt>
+				<dd><input type="text"  style="width:100%" name="title" value="{$vo.name}"/></dd>
+			</dl>
+		
+			<dl style="margin-left:200px;">
+				<dt>描述：</dt>
+				<dt><textarea class="editor" name="miaoshu" >{$vo.miaoshu}</textarea></dt>
+			</dl>	
+				
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			<!--<th width="">ID</th>
+				<th width="">昵称/用户名</th>
+				<th width="">E-Mail</th>
+				<th width="">积分</th>
+				<th width="">头像</th>
+				<th width="">状态</th>
+                <th width="">征友状态</th>
+				<th width="">登陆次数</th>
+				<th width="">登陆时间</th>
+				<th width="">注册时间</th>
+				<th width="">操作</th>
+				-->
+		</div>
+		
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">保存</button></div></div></li>
+				<li><div class="button"><div class="buttonContent"><button type="button" class="close">取消</button></div></div></li>
+			</ul>
+		</div>
+	</form>
+	
+</div>
+
+

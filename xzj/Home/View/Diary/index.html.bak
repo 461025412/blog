@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>黑色Html5响应式个人博客模板——主题《如影随形》</title>
+<meta name="keywords" content="个人博客模板,博客模板,响应式" />
+<meta name="description" content="如影随形主题的个人博客模板，神秘、俏皮。" />
+
+<link href="__PUBLIC__/css/base.css" rel="stylesheet">
+
+<link href="__PUBLIC__/css/media.css" rel="stylesheet">
+<link href="__PUBLIC__/css/style.css" rel="stylesheet">
+<link href="__PUBLIC__/css/base.css" rel="stylesheet">
+<link href="__PUBLIC__/css/index.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<style type="text/css" />
+
+.fangke{float:left;} 
+</style>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="ibody">
+  <include file="Public:index"/>
+  <article>
+    <h2 class="about_h">您现在的位置是：<a href="/">首页</a>><a href="1/">个人日志</a></h2>
+	<volist name='list' id='list'>
+    <div class="bloglist">
+      <div class="newblog">
+        <ul class="text">
+          <h3><a href="__MODULE__/Diary/single/id/{$list['id']}">{$list['title']}</a></h3>
+          <div class="autor"><span>作者：{$list['auth']}</span><span>分类：[{$list['type']}]</span><span>浏览量（{$list['view']}）</span><span>评论（<a href="/">{$list['comment']}</a>）</span></div>
+          <p style="width:300px;height:150px;overflow:hidden;">{$list['content']}</p>
+		  <a href="__MODULE__/Diary/single/id/{$list['id']}" target="_blank" class="readmore">全文</a>
+        </ul>
+        <figure><img src="__PUBLIC__/Uploads/pic/{$list['photo']}" ></figure>
+        <div class="dateview">{$list['time']|date="Y-m-d H:i:s",###}</div>
+      </div>
+     
+    </div>
+	</volist>
+    <div >{$show}</div>
+  </article>
+  <aside>
+    <div class="rnav">
+      <li class="rnav1 "><a href="__URL__/index/id/{$type['0']['id']}">{$type['0']['name']}</a></li>
+      <li class="rnav2 "><a href="__URL__/index/id/{$type['1']['id']}">{$type['1']['name']}</a></li>
+      <li class="rnav3 "><a href="__URL__/index/id/{$type['2']['id']}">{$type['2']['name']}</a></li>
+      <li class="rnav4 "><a href="__URL__/index/id/{$type['3']['id']}">{$type['3']['name']}</a></li>
+    </div>
+    <div class="ph_news">
+      <h2>
+        <p>点击排行</p>
+      </h2>
+      <ul class="ph_n">
+         <volist name='hotdiary'  id='hotdiary'>
+        <li><a href="__MODULE__/Diary/single/id/{$hotdiary['id']}">{$hotdiary['title']}</a></li>
+		</volist>
+      </ul>
+      <h2>
+        <p>最新文章</p>
+      </h2>
+      <ul>
+        <volist name='newdiary'  id='newdiary'>
+        <li><a href="__MODULE__/Diary/single/id/{$newdiary['id']}">{$newdiary['title']}</a></li>
+		</volist>
+      </ul>
+      <h2>
+        <p>最新留言</p>
+      </h2>
+      <ul class="pl_n">
+	  <volist name='huifu' id='huifu'>
+        <dl> 
+          <dt><img src="__PUBLIC__/Uploads/pic/{$huifu['user']['bigpic']}"> </dt>
+          <dt> </dt>
+          <dd>{$huifu['user']['name']}
+            <time>{$huifu['time']|date="Y-m-d H:i:s",###}</time>
+          </dd>
+          <dd><a href="/">{$huifu['huifu']}</a></dd>
+        </dl>
+       </volist>
+      </ul>
+     
+        <h2>
+        <p>最近访客</p>
+      </h2>
+      <ul class="pl_n">
+        <volist name="fangke" id="fangke">
+        <dl class="fangke"> 
+          <dt><img src="__PUBLIC__/Uploads/pic/{$fangke['bigpic']}"> </dt>
+
+        </dl>
+		
+      </volist>
+      </ul>
+    </div>
+  </aside>
+  <script src="js/silder.js"></script>
+  <div class="clear"></div>
+  <!-- 清除浮动 --> 
+</div>
+</body>
+</html>

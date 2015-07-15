@@ -1,0 +1,1902 @@
+[ 2015-03-16T12:18:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:18:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:18:34+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:18:34+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:18:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:18:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:19:07+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:19:16+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:19:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-03-16T12:19:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:19:49+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:19:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:20:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:20:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:24:54+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:25:00+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:27:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:28:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:28:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.007001s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('555',51,51,1) [ RunTime:0.056003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 34 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.004001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-03-16T12:28:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.005000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('555',1,51,1) [ RunTime:0.059004s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 35 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.010001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\DiaryController.class.php 第 45 行.
+
+[ 2015-03-16T12:31:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.000000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('555',1,51,1) [ RunTime:0.062400s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 36 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\DiaryController.class.php 第 45 行.
+
+[ 2015-03-16T12:31:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.015600s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('555',51,1,1,1426480305) [ RunTime:0.078000s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 37 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.015600s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2015-03-16T12:31:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:32:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.000000s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`huifuid`,`uid`,`time`,`liuyanid`) VALUES ('55',51,1,1426480323,0) [ RunTime:0.000000s ]
+
+[ 2015-03-16T12:32:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:32:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.015600s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('55',51,51,196) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 197 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.015600s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: bigpic E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 21 行.
+
+[ 2015-03-16T12:32:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:32:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.015600s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`huifuid`,`uid`,`time`,`liuyanid`) VALUES ('11111111111111',51,1,1426480352,0) [ RunTime:0.000000s ]
+
+[ 2015-03-16T12:32:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:33:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:33:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:34:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:34:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:34:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-03-16T12:34:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:34:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.004000s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('555',51,1,198) [ RunTime:0.002000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 199 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.007001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: bigpic E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 22 行.
+
+[ 2015-03-16T12:36:37+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:36:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.006001s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('555',51,1,194) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 200 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.008000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: bigpic E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 22 行.
+
+[ 2015-03-16T12:36:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.005001s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('555',51,1,198) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 201 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: bigpic E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 22 行.
+
+[ 2015-03-16T12:36:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/undefined
+ERR: 非法操作:undefined
+
+[ 2015-03-16T12:37:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:37:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:37:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.000000s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('555',51,1,198) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 202 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: bigpic E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 22 行.
+
+[ 2015-03-16T12:37:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/undefined
+ERR: 非法操作:undefined
+
+[ 2015-03-16T12:38:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:38:35+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.000000s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('5555',51,1,198) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 203 ) LIMIT 1   [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: bigpic E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 22 行.
+
+[ 2015-03-16T12:41:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:41:22+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.000000s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('555555555555555555',51,1,198) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 204 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.015600s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\LiuyanController.class.php 第 22 行.
+
+[ 2015-03-16T12:41:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.015600s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('11111111111\n',1,1,198) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 205 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.015600s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-03-16T12:42:39+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:42:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:42:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.000000s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`uid`,`huifuid`,`liuyanid`) VALUES ('555555555',1,1,198) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xzj_liuyan` WHERE ( `id` = 206 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.015600s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-03-16T12:43:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:43:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:43:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:43:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:44:37+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:44:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:54:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:55:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:55:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:55:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:55:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:55:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:55:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:56:52+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:57:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:57:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T12:57:23+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:03:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:08:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:14:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:14:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:14:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:14:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:17:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:17:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:18:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:18:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:18:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:19:07+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:19:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:19:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:19:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:19:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:20:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:21:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:22:13+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:26:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:26:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:33:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:34:06+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.011001s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('555555',1,1,2) [ RunTime:0.041003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 38 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+
+[ 2015-03-16T13:34:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.005001s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('5555555',1,1,2,1426484050) [ RunTime:0.046002s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.005001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-16T13:34:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:38:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:38:34+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:38:49+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:38:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:41:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:41:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:41:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:41:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:42:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:42:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:42:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:43:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:43:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:44:01+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:44:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:44:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:45:01+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:45:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:45:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:45:06+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:45:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:46:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:46:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:46:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:46:27+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:46:28+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:02+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:06+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:48:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:49:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:49:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T13:50:01+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:05:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:06:16+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:06:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:06:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:28:35+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:29:06+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:33:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:33:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:36:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:36:48+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:38:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:38:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:38:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:46:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:46:33+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:49:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:51:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:51:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:52:28+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:53:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:54:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:54:48+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:55:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:55:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:56:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:56:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T14:57:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:08:23+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:08:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:08:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:08:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:08:59+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:09:07+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:10:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:10:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:10:09+08:00 ] 127.0.0.1 /blog/index.php/Home/single/id/1
+ERR: 无法加载控制器:Single
+
+[ 2015-03-16T15:10:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:11:39+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:12:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:12:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:20:16+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:20:16+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:22:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:22:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:22:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:23:02+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:23:02+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:23:39+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:24:00+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:24:00+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:24:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:26:39+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:26:39+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:27:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:27:48+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:28:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:28:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:28:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:29:07+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:33:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:33:13+08:00 ] 127.0.0.1 /blog/index.php/HomePhoto/single/id/13
+ERR: 无法加载控制器:HomePhoto
+
+[ 2015-03-16T15:33:41+08:00 ] 127.0.0.1 /blog/index.php/HomePhoto/single/id/13
+ERR: 无法加载控制器:HomePhoto
+
+[ 2015-03-16T15:33:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:36:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:36:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:37:48+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:02+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:20+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:22+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:23+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:52+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:38:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:39:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:43:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:44:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diary=>Array]
+
+[ 2015-03-16T15:45:27+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:46:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:48:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index.php/admin
+ERR: 非法操作:index.php
+
+[ 2015-03-16T15:48:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:48:28+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:49:10+08:00 ] 127.0.0.1 /blog/index.php/Admin/Diary/add?_=1426492150569
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-16T15:49:53+08:00 ] 127.0.0.1 /blog/index.php/Admin/Diary/insert/navTabId/add/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: password E:\env\wamp\www\blog\xzj\Admin\Controller\CommonController.class.php 第 49 行.
+SQL: INSERT INTO `xzj_diary` (`title`,`type`,`auth`,`content`) VALUES ('555',1,'ggg','jjjjjj') [ RunTime:0.074005s ]
+NOTIC: [8] Undefined index: forwardUrl E:\env\wamp\www\blog\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2015-03-16T15:50:35+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:53:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:53:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:53:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:53:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:53:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:53:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:53:57+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T15:54:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.007000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('ger',1,1,40,1426492477) [ RunTime:0.057003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 41 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-16T15:54:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.009000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('rrt',1,1,40) [ RunTime:0.038003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.008000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-03-16T15:57:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:02:27+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.006000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('55555555',1,1,40,1426492946) [ RunTime:0.048002s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 43 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.005001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-16T16:04:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.006000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('555',1,1,40,1426493051) [ RunTime:0.071004s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-16T16:12:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:12:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:12:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:12:13+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:19:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:19:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:19:54+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:19:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:20:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:20:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:21:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:21:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:21:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:21:37+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:22:16+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:22:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:22:23+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:22:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:24:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:41:22+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:41:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:42:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:45:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:46:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:47:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:48:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:49:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:49:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:50:00+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:51:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T16:51:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:35:39+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:35:48+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:36:03+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:36:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:36:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:36:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:36:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/verify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-16T18:36:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:36:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.008001s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`huifuid`,`uid`,`time`,`liuyanid`) VALUES ('5555555',51,1,1426502215,0) [ RunTime:0.001000s ]
+
+[ 2015-03-16T18:36:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:37:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_liuyan` [ RunTime:0.006001s ]
+SQL: INSERT INTO `xzj_liuyan` (`huifu`,`huifuid`,`uid`,`time`,`liuyanid`) VALUES ('5555555',51,1,1426502238,0) [ RunTime:0.001000s ]
+
+[ 2015-03-16T18:37:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:37:28+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:37:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:37:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:39:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:39:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.005000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('5555555',51,1,0,1426502360) [ RunTime:0.063004s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 45 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-16T18:39:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/single/id/
+ERR: 参数错误或者未定义:id
+
+[ 2015-03-16T18:39:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.004000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('555555555',51,1,0,1426502378) [ RunTime:0.086005s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-16T18:39:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/single/id/
+ERR: 参数错误或者未定义:id
+
+[ 2015-03-16T18:42:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:46:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:47:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:47:13+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.004000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`huifuid`,`uid`,`diaryid`,`time`) VALUES ('555555',51,1,40,1426502833) [ RunTime:0.047003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 47 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-03-16T18:47:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.007000s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('555',1,51,40) [ RunTime:0.068003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\DiaryController.class.php 第 59 行.
+
+[ 2015-03-16T18:47:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.006001s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('100',1,51,40) [ RunTime:0.061003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.004000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: hui E:\env\wamp\www\blog\xzj\Home\Controller\DiaryController.class.php 第 59 行.
+
+[ 2015-03-16T18:48:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/insertH
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.007001s ]
+SQL: INSERT INTO `xzj_diary` (`huifu`,`uid`,`huifuid`,`diaryid`) VALUES ('100\n',51,51,40) [ RunTime:0.048003s ]
+SQL: SELECT * FROM `xzj_diary` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `bigpic` FROM `xzj_guest` WHERE ( id=51 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2015-03-16T18:48:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:49:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:49:23+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T18:51:49+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:02:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:02:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:02:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:03:00+08:00 ] 127.0.0.1 /blog/index.php/Admin/Diary/add?_=1426503780355
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-16T19:03:12+08:00 ] 127.0.0.1 /blog/index.php/Admin/Diary/insert/navTabId/add/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: password E:\env\wamp\www\blog\xzj\Admin\Controller\CommonController.class.php 第 49 行.
+SQL: INSERT INTO `xzj_diary` (`title`,`type`,`auth`,`content`) VALUES ('wo',1,'auth','sasaca') [ RunTime:0.080000s ]
+NOTIC: [8] Undefined index: forwardUrl E:\env\wamp\www\blog\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2015-03-16T19:03:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:03:48+08:00 ] 127.0.0.1 /blog/index.php/Admin/Diary/add?_=1426503828384
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-16T19:03:59+08:00 ] 127.0.0.1 /blog/index.php/Admin/Diary/insert/navTabId/add/callbackType/closeCurrent
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_diary` [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: password E:\env\wamp\www\blog\xzj\Admin\Controller\CommonController.class.php 第 49 行.
+SQL: INSERT INTO `xzj_diary` (`title`,`type`,`auth`,`content`) VALUES ('5555555555',0,'555555','5555555') [ RunTime:0.124800s ]
+NOTIC: [8] Undefined index: forwardUrl E:\env\wamp\www\blog\ThinkPHP\Library\Think\Controller.class.php 第 220 行.
+
+[ 2015-03-16T19:04:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:04:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:05:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:05:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/type/id/2
+ERR: 非法操作:type
+
+[ 2015-03-16T19:07:40+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:07:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:07:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:07:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:07:51+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:08:13+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:08:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:10:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:10:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:10:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:10:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:10:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:10:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:13:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:13:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:13:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:14:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:14:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:14:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:14:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:15:07+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:15:28+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:15:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:17:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:17:33+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:25:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:25:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:25:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:25:33+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:25:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:22+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:44+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:27:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:28:21+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:28:23+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:28:43+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:31:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:33:43+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:34:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:34:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:36:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:36:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:36:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:36:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:36:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:36:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:38:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:39:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:39:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:39:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:41:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:41:52+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:41:52+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:42:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:42:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:43:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:44:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:44:05+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:45:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:45:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:45:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:45:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:48:11+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:52:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:52:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:54:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:55:28+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:55:28+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:55:45+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:56:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T19:56:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:05:37+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:05:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/unique?inputName=name&inputValue=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.008000s ]
+SQL: SELECT `name` FROM `xzj_guest`  [ RunTime:0.001000s ]
+
+[ 2015-03-16T20:05:49+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/unique?inputName=email&inputValue=461025412@qq.com
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\env\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `xzj_guest` [ RunTime:0.005001s ]
+SQL: SELECT `email` FROM `xzj_guest`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name E:\env\wamp\www\blog\xzj\Home\Controller\GuestController.class.php 第 89 行.
+NOTIC: [8] Undefined index: name E:\env\wamp\www\blog\xzj\Home\Controller\GuestController.class.php 第 89 行.
+NOTIC: [8] Undefined index: name E:\env\wamp\www\blog\xzj\Home\Controller\GuestController.class.php 第 89 行.
+
+[ 2015-03-16T20:06:13+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:11:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:11:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:12:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:13:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Guest/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:16:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:16:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:17:39+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:17:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:18:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:20:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:20:37+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:21:37+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:21:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:23:13+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:23:15+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:23:49+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:23:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:23:54+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:23:58+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:24:01+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:24:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:24:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:25:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:25:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:25:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:25:57+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:25:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:27:06+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:27:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:27:48+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:31:36+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:36:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:37:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:37:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:37:34+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:38:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:38:22+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:38:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:39:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:39:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:39:17+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:39:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Liuyan/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:39:22+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:39:24+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:39:28+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:40:27+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:40:29+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:40:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:41:32+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:41:33+08:00 ] 127.0.0.1 /blog/index.php/Home/Photo/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T20:46:02+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:05:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:05:16+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:05:33+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:06:01+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:06:43+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:07:56+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:09:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:09:10+08:00 ] 127.0.0.1 /blog/index.php/Home/Diary/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:10:29+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:11:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:13:20+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:20:02+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:22:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:28:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:31:40+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:32:54+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:33:44+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:34:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:34:39+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:36:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:38:55+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:39:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:39:48+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:40:42+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:42:18+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:44:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:44:27+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:44:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:45:54+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:47:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:48:33+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:49:16+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:50:23+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:50:25+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T21:52:14+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:01:06+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:01:46+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:05:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>40]
+
+[ 2015-03-16T22:07:07+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>40]
+
+[ 2015-03-16T22:08:12+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>40]
+
+[ 2015-03-16T22:08:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>40]
+
+[ 2015-03-16T22:09:38+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>40]
+
+[ 2015-03-16T22:10:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>40]
+
+[ 2015-03-16T22:11:03+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:12:09+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:13:06+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:13:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:18:08+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>40]
+
+[ 2015-03-16T22:18:49+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>Array]
+
+[ 2015-03-16T22:18:50+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>Array]
+
+[ 2015-03-16T22:20:41+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:21:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>Array]
+
+[ 2015-03-16T22:24:19+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>Array]
+
+[ 2015-03-16T22:24:47+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>51]
+
+[ 2015-03-16T22:24:59+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:25:20+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:25:23+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/index
+ERR: 错误的查询条件:[diaryid=>51]
+
+[ 2015-03-16T22:25:31+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:26:27+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:27:53+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:28:01+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:28:13+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:28:22+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:29:26+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:29:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:30:30+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:31:04+08:00 ] 127.0.0.1 /blog/index.php/Home/Index/js/silder.js
+ERR: 非法操作:js
+
+[ 2015-03-16T22:31:16+08:00 ] 127.0.0.1 /blog/index.php/Home/User/js/silder.js
+ERR: 非法操作:js
+

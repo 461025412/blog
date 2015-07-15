@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>黑色Html5响应式个人博客模板——主题《如影随形》</title>
+<meta name="keywords" content="个人博客模板,博客模板,响应式" />
+<meta name="description" content="如影随形主题的个人博客模板，神秘、俏皮。" />
+<link href="__PUBLIC__/css/reset.css" rel="stylesheet">
+<link href="__PUBLIC__/css/photostyle.css" rel="stylesheet">
+<link href="__PUBLIC__/css/base.css" rel="stylesheet">
+<link href="__PUBLIC__/css/style.css" rel="stylesheet">
+<style type="text/css" />
+
+.fangke{float:left;} 
+</style>
+<link href="__PUBLIC__/css/media.css" rel="stylesheet">
+<link href="__PUBLIC__/css/swipebox.css" rel="stylesheet">
+<script type="text/javascript" />
+ var __public__ = "__PUBLIC__";
+ var __module__ = "__MODULE__";
+ var dataInt=<?php echo $photo ?>;
+ </script>
+ <style type="text/css">
+    *{padding: 0;margin:0;}
+    #main{
+	width:600px;
+        position: relative;
+    }
+    .pin{
+        padding: 15px 0 0 15px;
+        float:left;
+    }
+    .box{
+        padding: 10px;
+        border:1px solid #ccc;
+        box-shadow: 0 0 6px #ccc;
+        border-radius: 5px;
+    }
+    .box img{
+        width:162px;
+        height:auto;
+    }
+	.box a{
+        color:red;
+       
+    }
+	</style>
+
+
+
+</script>
+<script type="text/javascript" src="__PUBLIC__/js/waterfall.js"/></script>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="ibody">
+  <include file="Public:index"/>
+  <article>
+    <h2 class="about_h">您现在的位置是：<a href="/">首页</a>><a href="1/">相册</a></h2>
+	<div id="main">
+     <volist name='pb' id='pb'>
+	    <div class="pin">
+        <div class="box">
+            <img src="__PUBLIC__/images/{$pb['url']}"/>
+			<span>浏览量({$pb['view']})</span><a href="__URL__/single/id/{$pb['id']}">看大图</a>
+        </div>
+	   </div>
+	   </volist> 
+	</div>
+    
+  </article>
+  <aside>
+    <div class="rnav">
+       <li class="rnav1 "><a href="__MODULE__/Diary/index/id/{$type['0']['id']}">{$type['0']['name']}</a></li>
+      <li class="rnav2 "><a href="__MODULE__/Diary/index/id/{$type['1']['id']}">{$type['1']['name']}</a></li>
+      <li class="rnav3 "><a href="__MODULE__/Diary/index/id/{$type['2']['id']}">{$type['2']['name']}</a></li>
+      <li class="rnav4 "><a href="__MODULE__/Diary/index/id/{$type['3']['id']}">{$type['3']['name']}</a></li>
+    </div>
+    <div class="ph_news">
+      <h2>
+        <p>点击排行</p>
+      </h2>
+      <ul class="ph_n">
+         <volist name='hotdiary'  id='hotdiary'>
+        <li><a href="__MODULE__/Diary/single/id/{$hotdiary['id']}">{$hotdiary['title']}</a></li>
+		</volist>
+      </ul>
+      <h2>
+        <p>最新文章</p>
+      </h2>
+      <ul>
+        <volist name='newdiary'  id='newdiary'>
+        <li><a href="__MODULE__/Diary/single/id/{$newdiary['id']}">{$newdiary['title']}</a></li>
+		</volist>
+      </ul>
+      <h2>
+        <p>最新评论</p>
+      </h2>
+      <ul class="pl_n">
+        <volist name='huifu' id='huifu'>
+        <dl> 
+          <dt><img src="__PUBLIC__/Uploads/pic/{$huifu['user']['bigpic']}"> </dt>
+          <dt> </dt>
+          <dd>{$huifu['user']['name']}
+            <time>{$huifu['time']|date="Y-m-d H:i:s",###}</time>
+          </dd>
+          <dd><a href="/">{$huifu['huifu']}</a></dd>
+        </dl>
+       </volist>
+	   </ul>
+       <h2>
+        <p>最近访客</p>
+      </h2>
+      <ul class="pl_n">
+        <volist name="fangke" id="fangke">
+        <dl class="fangke"> 
+          <dt><img src="__PUBLIC__/Uploads/pic/{$fangke['bigpic']}"> </dt>
+
+        </dl>
+		
+      </volist>
+      </ul>
+    </div>
+    <div class="copyright" style="margin-top:130px">
+      <ul>
+        <p> Design by <a href="/">DanceSmile</a></p>
+        <p>蜀ICP备11002373号-1</p>
+        </p>
+      </ul>
+    </div>
+  </aside>
+  <script src="js/silder.js"></script>
+  <div class="clear"></div>
+  <!-- 清除浮动 --> 
+</div>
+</body>
+</html>

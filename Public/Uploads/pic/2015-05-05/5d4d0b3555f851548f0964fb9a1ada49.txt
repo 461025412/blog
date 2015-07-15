@@ -1,0 +1,70 @@
+array_diff($1,$2)返回数组1中在数组2内不同的值。可以反向比较两次取出两个数组中不同的值
+strpos() 函数返回字符串在另一个字符串中第一次出现的位置。位置在0处为0 所以用恒不等于false判断
+strpos(string,find,start)该函数对大小写敏感。如需进行对大小写不敏感的搜索，请使用 stripos() 函数。
+array_merge() 函数把两个或多个数组合并为一个数组。array_merge(array1,array2,array3...)
+array_search()$a=array("a"=>"Dog","b"=>"Cat","c"=>"Horse");echo array_search("Dog",$a);a
+in_array(value,array,type)如果给定的值 value 存在于数组 array 中则返回 true。$people = array("Peter", "Joe", "Glenn", "Cleveland");if (in_array("Glenn",$people))
+  {
+  echo "Match found";
+  }
+else
+  {
+  echo "Match not found";
+  }Match found
+array_key_exists(key,array) 函数判断某个数组中是否存在指定的 key，如果该 key 存在，则返回 true，否则返回 false。
+返回对象实例 obj 所属类的名字。如果 obj 不是一个对象则返回 FALSE。get_class
+is_object判断是否是一个对象
+rand（）如果没有提供可选参数 min 和 max，rand() 返回 0 到 RAND_MAX 之间的伪随机整数
+label for='ss'
+input id='ss'
+array_push() 函数向第一个参数的数组尾部添加一个或多个元素（入栈），然后返回新数组的长度。<?php
+$a=array("Dog","Cat");
+array_push($a,"Horse","Bird");
+print_r($a);
+?>Array ( [0] => Dog [1] => Cat [2] => Horse [3] => Bird )
+file_exists();判断文件是否存在，存在的话进行ulink（）删除
+array_key_exists() 函数判断某个数组中是否存在指定的 key，如果该 key 存在，则返回 true，否则返回 false。<?php
+$a=array("a"=>"Dog","b"=>"Cat");
+if (array_key_exists("a",$a))
+	{
+	echo "Key exists!";
+	}
+else
+	{
+	echo "Key does not exist!";
+	}
+?>Key exists!
+explode(',',$s);用逗号把一个数组变成字符串并以逗号分隔
+sort() 函数按升序对给定数组的值排序本函数为数组中的单元赋予新的键名。原有的键名将被删除。
+<?php
+$my_array = array("a" => "Dog", "b" => "Cat", "c" => "Horse");
+
+sort($my_array);
+print_r($my_array);
+?>  Array
+(
+[0] => Cat
+[1] => Dog
+[2] => Horse
+)
+trim();trim() 函数从字符串的两端删除空白字符和其他预定义字符
+str_replace() 函数使用一个字符串替换字符串中的另一些字符。str_replace(find,replace,string,count)str_replace("world","John","Hello world!");Hello John!
+
+copy(source,destination)将文件从 source 拷贝到 destination。如果成功则返回 TRUE，否则返回 FALSE。
+if(!is_dir($dir))
+			mkdir($dir, 0777);
+echo number_format("1000000");
+echo number_format("1000000",2);
+1,000,000
+1,000,000.00
+ucfirst();首字母大写
+sub_str('',第几位开始截断)
+rtrim(string,charlist)函数从字符串的末端开始删除空白字符或其他预定义字符。
+pathinfo() 函数以数组的形式返回文件路径的信息。pathinfo(path,options)
+PATHINFO_DIRNAME - 只返回 dirname
+PATHINFO_BASENAME - 只返回 basename
+PATHINFO_EXTENSION - 只返回 extension
+end() 函数将数组内部指针指向最后一个元素
+$ext=strtolower(end(explode('.',$fileInfo['name'])));
+
+array_filter去除空的的数组元素，array_values重新生成数组元素即键值从0开始

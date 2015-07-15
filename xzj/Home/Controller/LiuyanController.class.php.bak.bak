@@ -1,0 +1,18 @@
+<?php 
+namespace Home\Controller;
+use Think\Controller;
+ class LiuyanController extends Controller{
+ public function index(){
+	 
+	 $hotdiary=D('diary')->order('view DESC')->select();
+	  $newdiary=D('diary')->limit('8')->order('time DESC')->select();
+      $liuyan=D('liuyan')->where($where)->select();
+	  dump($liuyan);
+	  die;
+	  $this->assign('liuyan',$liuyan);
+	  $this->assign('newdiary',$newdiary);
+	  $this->assign('hotdiary',$hotdiary);
+ $this->display();
+ 
+ }
+ }
